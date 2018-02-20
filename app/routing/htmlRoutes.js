@@ -8,7 +8,7 @@ app.get("/", function (req, res) {
 
 //Home page (default)
 app.get("/survey", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/survey.html"));
+    res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
 };
